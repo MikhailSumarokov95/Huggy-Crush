@@ -27,5 +27,6 @@ public class LevelManager : MonoBehaviour
         _killCounter.ResetCountKillPerLevel();
         winPanel.gameObject.SetActive(true);
         SetPause(true);
+        GSConnect.ShowMidgameAd();
     }
 }
